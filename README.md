@@ -1,4 +1,4 @@
-Project2:
+Playgrounds on Costa del Sol - Homepage:
 
 - my own idea
 - work in progress, some basic resposiveness, respnosive menu, some JS
