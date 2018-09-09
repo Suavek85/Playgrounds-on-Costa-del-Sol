@@ -12,9 +12,11 @@ body {
 
     font-size: 16px;
     line-height: 1.7;
+    font-family: 'Kanit', sans-serif;
     color: white;
     padding: 0px;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-color: #DDE6EC;
+   
 }
 
 /* RESPONSIVE MENU */
@@ -129,7 +131,7 @@ a span {
     background-image: linear-gradient(to right, rgba(64, 224, 208, 0.5), rgba(255, 140, 0, 0.5), rgba(255, 0, 128, 0.5)), url(images/swing_2.jpg);
     background-size: cover;
     background-position: top;
-
+   
 }
 
 .item1 {
@@ -358,6 +360,14 @@ a span {
 
 
 
+.btn-blank:hover {
+
+    background: rgba(64, 224, 208, 1);
+
+}
+
+
+
 /*SECTION 1 - PLAYGROUND SMALL BOXES*/
 
 .play {
@@ -439,14 +449,14 @@ a span {
 }
 
 
-
-/* SECTION 2 - NEWS*/
+/*SECTION 2 - NEWS*/
 
 .news-main {
 
     background-color: #F4C2C2;
     padding: 70px 20px 20px 20px;
     margin: 20px auto;
+     
 
 }
 
@@ -454,10 +464,11 @@ a span {
 .news-img {
 
     display: block;
-    width: 200px;
+    width: 150px;
     height: auto;
     margin: auto;
     text-align: center;
+    
 
 }
 
@@ -488,6 +499,7 @@ a span {
 .content {
     background-color: #DDE6EC;
     padding: 25px;
+    border-radius: 10px;
 }
 
 .news {
@@ -513,7 +525,7 @@ h5 {
 
     .news-img {
 
-        width: 150px;
+        width: 120px;
 
 
     }
@@ -579,6 +591,8 @@ h3 {
     position: relative;
     float: left;
     width: calc(25% - (30px / 4));
+    border-radius: 10px;
+    overflow: hidden;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
