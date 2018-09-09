@@ -813,7 +813,7 @@ footer {
     display: inline-block;
     margin: 0;
     height: 70px;
-    background-color: #F4C2C2;
+    background-color: #99999;
 }
 
 .copyright {
@@ -822,7 +822,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-    footer .copyright {
+    .copyright {
         width: 100%;
     }
 }
@@ -837,13 +837,13 @@ footer {
 }
 
 @media (max-width: 600px) {
-    footer .copyright p {
+    .copyright p {
         text-align: center;
         padding: 0;
     }
 }
 
-footer .social {
+.social {
     width: 50%;
     float: right;
 }
@@ -852,12 +852,12 @@ footer .social {
 /*FOOTER - MEDIA QUERIES*/
 
 @media (max-width: 600px) {
-    footer .social {
+    .social {
         width: 100%;
     }
 }
 
-footer .social a {
+.social a {
     float: left;
     line-height: 70px;
     text-decoration: none;
@@ -870,7 +870,7 @@ footer .social a {
     transition: all, 0.3s;
 }
 
-footer .social a:hover {
+.social a:hover {
     background-color: #222;
     -moz-transition: all, 0.3s;
     -o-transition: all, 0.3s;
