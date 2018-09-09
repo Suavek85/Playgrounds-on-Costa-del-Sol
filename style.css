@@ -813,10 +813,10 @@ footer {
     display: inline-block;
     margin: 0;
     height: 70px;
-    background-color: #999;
+    background-color: #F4C2C2;
 }
 
-footer .copyright {
+.copyright {
     width: 50%;
     float: left;
 }
@@ -827,7 +827,7 @@ footer .copyright {
     }
 }
 
-footer .copyright p {
+.copyright p {
     padding-left: 10%;
     color: white;
     font-size: 0.7em;
